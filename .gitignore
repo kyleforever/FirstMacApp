@@ -1,0 +1,19 @@
+#exclude build directory
+build/*
+
+#Exclude temp nibs and swap files
+*~.nib
+*.swp
+
+
+#Exclude folder display properties directory in OS X 
+.DS_Store
+
+#Exclude user defined setting files in Xcode3 Xcode4
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+xcuserdata 
